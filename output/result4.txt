@@ -1,0 +1,412 @@
+Program    <row: 1, col: 0>
+-KEYWORD: PROGRAM    <row: 1, col: 1>
+-KEYWORD: IS    <row: 1, col: 9>
+-Body    <row: 2, col: 0>
+--declaration list    <row: 2, col: 0>
+--- Variable declaration    <row: 2, col: 0>
+----KEYWORD: VAR    <row: 2, col: 5>
+----variable declaration list    <row: 2, col: 0>
+-----variable declaration    <row: 2, col: 0>
+------IDENTIFIER: I    <row: 2, col: 9>
+------------type option    <row: 2, col: 0>
+-------DELIMITER: :    <row: 2, col: 11>
+-------type    <row: 2, col: 0>
+--------IDENTIFIER: INTEGER    <row: 2, col: 13>
+------OPERATOR: :=    <row: 2, col: 21>
+------numder expression    <row: 2, col: 0>
+-------number    <row: 2, col: 0>
+--------INTEGER: 0    <row: 2, col: 24>
+------DELIMITER: ;    <row: 2, col: 25>
+--------declaration list    <row: 3, col: 0>
+----Type declaration    <row: 3, col: 0>
+-----KEYWORD: TYPE    <row: 3, col: 5>
+-----type declaration list    <row: 3, col: 0>
+------type declaration    <row: 3, col: 0>
+-------IDENTIFIER: COMPLEX    <row: 3, col: 10>
+-------KEYWORD: IS    <row: 3, col: 18>
+-------record type    <row: 3, col: 0>
+--------KEYWORD: RECORD    <row: 3, col: 21>
+--------component    <row: 3, col: 0>
+---------IDENTIFIER: R    <row: 3, col: 28>
+---------DELIMITER: :    <row: 3, col: 29>
+---------type    <row: 3, col: 0>
+----------IDENTIFIER: REAL    <row: 3, col: 31>
+---------DELIMITER: ;    <row: 3, col: 35>
+--------component list    <row: 3, col: 0>
+---------component    <row: 3, col: 0>
+----------IDENTIFIER: I    <row: 3, col: 37>
+----------DELIMITER: :    <row: 3, col: 39>
+----------type    <row: 3, col: 0>
+-----------IDENTIFIER: REAL    <row: 3, col: 41>
+----------DELIMITER: ;    <row: 3, col: 45>
+-----------------KEYWORD: END    <row: 3, col: 47>
+-------DELIMITER: ;    <row: 3, col: 50>
+----------declaration list    <row: 4, col: 0>
+-----Type declaration    <row: 4, col: 0>
+------KEYWORD: TYPE    <row: 4, col: 5>
+------type declaration list    <row: 4, col: 0>
+-------type declaration    <row: 4, col: 0>
+--------IDENTIFIER: PAIR    <row: 4, col: 10>
+--------KEYWORD: IS    <row: 4, col: 15>
+--------record type    <row: 4, col: 0>
+---------KEYWORD: RECORD    <row: 4, col: 18>
+---------component    <row: 4, col: 0>
+----------IDENTIFIER: FIRST    <row: 4, col: 25>
+----------DELIMITER: :    <row: 4, col: 30>
+----------type    <row: 4, col: 0>
+-----------IDENTIFIER: COMPLEX    <row: 4, col: 32>
+----------DELIMITER: ;    <row: 4, col: 39>
+---------component list    <row: 4, col: 0>
+----------component    <row: 4, col: 0>
+-----------IDENTIFIER: SECOND    <row: 4, col: 41>
+-----------DELIMITER: :    <row: 4, col: 48>
+-----------type    <row: 4, col: 0>
+------------IDENTIFIER: COMPLEX    <row: 4, col: 50>
+-----------DELIMITER: ;    <row: 4, col: 57>
+-------------------KEYWORD: END    <row: 4, col: 59>
+--------DELIMITER: ;    <row: 4, col: 62>
+------------declaration list    <row: 5, col: 0>
+------ Variable declaration    <row: 5, col: 0>
+-------KEYWORD: VAR    <row: 5, col: 5>
+-------variable declaration list    <row: 5, col: 0>
+--------variable declaration    <row: 5, col: 0>
+---------IDENTIFIER: C    <row: 5, col: 9>
+------------------type option    <row: 5, col: 0>
+----------DELIMITER: :    <row: 5, col: 11>
+----------type    <row: 5, col: 0>
+-----------IDENTIFIER: COMPLEX    <row: 5, col: 13>
+---------OPERATOR: :=    <row: 5, col: 21>
+---------record expression    <row: 5, col: 0>
+----------IDENTIFIER: COMPLEX    <row: 5, col: 24>
+----------comp value list    <row: 5, col: 0>
+-----------DELIMITER: {    <row: 5, col: 32>
+-----------IDENTIFIER: R    <row: 5, col: 34>
+-----------OPERATOR: :=    <row: 5, col: 36>
+-----------numder expression    <row: 5, col: 0>
+------------number    <row: 5, col: 0>
+-------------REAL: 0.0    <row: 5, col: 39>
+-----------assign expression list    <row: 5, col: 0>
+------------DELIMITER: ;    <row: 5, col: 42>
+------------IDENTIFIER: I    <row: 5, col: 44>
+------------OPERATOR: :=    <row: 5, col: 46>
+------------numder expression    <row: 5, col: 0>
+-------------number    <row: 5, col: 0>
+--------------REAL: 0.0    <row: 5, col: 49>
+-----------------------DELIMITER: }    <row: 5, col: 53>
+---------DELIMITER: ;    <row: 5, col: 54>
+--------------declaration list    <row: 6, col: 0>
+------- Variable declaration    <row: 6, col: 0>
+--------KEYWORD: VAR    <row: 6, col: 5>
+--------variable declaration list    <row: 6, col: 0>
+---------variable declaration    <row: 6, col: 0>
+----------IDENTIFIER: P    <row: 6, col: 9>
+--------------------type option    <row: 6, col: 0>
+-----------DELIMITER: :    <row: 6, col: 11>
+-----------type    <row: 6, col: 0>
+------------IDENTIFIER: PAIR    <row: 6, col: 13>
+----------OPERATOR: :=    <row: 6, col: 18>
+----------record expression    <row: 6, col: 0>
+-----------IDENTIFIER: PAIR    <row: 6, col: 21>
+-----------comp value list    <row: 6, col: 0>
+------------DELIMITER: {    <row: 6, col: 26>
+------------IDENTIFIER: FIRST    <row: 6, col: 28>
+------------OPERATOR: :=    <row: 6, col: 34>
+------------record expression    <row: 6, col: 0>
+-------------IDENTIFIER: COMPLEX    <row: 6, col: 37>
+-------------comp value list    <row: 6, col: 0>
+--------------DELIMITER: {    <row: 6, col: 45>
+--------------IDENTIFIER: R    <row: 6, col: 47>
+--------------OPERATOR: :=    <row: 6, col: 49>
+--------------numder expression    <row: 6, col: 0>
+---------------number    <row: 6, col: 0>
+----------------REAL: 0.0    <row: 6, col: 52>
+--------------assign expression list    <row: 6, col: 0>
+---------------DELIMITER: ;    <row: 6, col: 55>
+---------------IDENTIFIER: I    <row: 6, col: 57>
+---------------OPERATOR: :=    <row: 6, col: 59>
+---------------numder expression    <row: 6, col: 0>
+----------------number    <row: 6, col: 0>
+-----------------REAL: 0.0    <row: 6, col: 62>
+-----------------------------DELIMITER: }    <row: 6, col: 66>
+------------assign expression list    <row: 6, col: 0>
+-------------DELIMITER: ;    <row: 6, col: 67>
+-------------IDENTIFIER: SECOND    <row: 7, col: 28>
+-------------OPERATOR: :=    <row: 7, col: 35>
+-------------record expression    <row: 7, col: 0>
+--------------IDENTIFIER: COMPLEX    <row: 7, col: 38>
+--------------comp value list    <row: 7, col: 0>
+---------------DELIMITER: {    <row: 7, col: 46>
+---------------IDENTIFIER: R    <row: 7, col: 48>
+---------------OPERATOR: :=    <row: 7, col: 50>
+---------------numder expression    <row: 7, col: 0>
+----------------number    <row: 7, col: 0>
+-----------------REAL: 0.0    <row: 7, col: 53>
+---------------assign expression list    <row: 7, col: 0>
+----------------DELIMITER: ;    <row: 7, col: 56>
+----------------IDENTIFIER: I    <row: 7, col: 58>
+----------------OPERATOR: :=    <row: 7, col: 60>
+----------------numder expression    <row: 7, col: 0>
+-----------------number    <row: 7, col: 0>
+------------------REAL: 0.0    <row: 7, col: 63>
+-------------------------------DELIMITER: }    <row: 7, col: 67>
+-------------------------DELIMITER: }    <row: 7, col: 69>
+----------DELIMITER: ;    <row: 7, col: 70>
+----------------declaration list    <row: 8, col: 0>
+--------Procedure declaration    <row: 8, col: 0>
+---------KEYWORD: PROCEDURE    <row: 8, col: 5>
+---------procedure declaration list    <row: 8, col: 0>
+----------procedure declaration    <row: 8, col: 0>
+-----------IDENTIFIER: PRINT    <row: 8, col: 15>
+-----------formal parameter list    <row: 8, col: 0>
+------------DELIMITER: (    <row: 8, col: 20>
+------------DELIMITER: )    <row: 8, col: 21>
+----------------------KEYWORD: IS    <row: 8, col: 23>
+-----------Body    <row: 0, col: 0>
+------------------------KEYWORD: BEGIN    <row: 8, col: 26>
+------------statement list    <row: 9, col: 0>
+-------------write statement    <row: 9, col: 0>
+--------------KEYWORD: WRITE    <row: 9, col: 2>
+--------------Write parameter list    <row: 9, col: 0>
+---------------DELIMITER: (    <row: 9, col: 7>
+---------------Write expression    <row: 9, col: 0>
+----------------STRING: "    ("    <row: 9, col: 8>
+---------------Write expression list    <row: 9, col: 0>
+----------------DELIMITER: ,    <row: 9, col: 15>
+----------------Write expression    <row: 9, col: 0>
+-----------------lvalue expression    <row: 9, col: 0>
+------------------lvalue    <row: 9, col: 0>
+-------------------lvalue    <row: 9, col: 0>
+--------------------IDENTIFIER: C    <row: 9, col: 17>
+-------------------DELIMITER: .    <row: 9, col: 18>
+-------------------IDENTIFIER: R    <row: 9, col: 19>
+----------------Write expression list    <row: 9, col: 0>
+-----------------DELIMITER: ,    <row: 9, col: 20>
+-----------------Write expression    <row: 9, col: 0>
+------------------STRING: ", "    <row: 9, col: 22>
+-----------------Write expression list    <row: 9, col: 0>
+------------------DELIMITER: ,    <row: 9, col: 26>
+------------------Write expression    <row: 9, col: 0>
+-------------------lvalue expression    <row: 9, col: 0>
+--------------------lvalue    <row: 9, col: 0>
+---------------------lvalue    <row: 9, col: 0>
+----------------------IDENTIFIER: C    <row: 9, col: 28>
+---------------------DELIMITER: .    <row: 9, col: 29>
+---------------------IDENTIFIER: I    <row: 9, col: 30>
+------------------Write expression list    <row: 9, col: 0>
+-------------------DELIMITER: ,    <row: 9, col: 31>
+-------------------Write expression    <row: 9, col: 0>
+--------------------STRING: ")"    <row: 9, col: 33>
+----------------------------------DELIMITER: )    <row: 9, col: 36>
+--------------DELIMITER: ;    <row: 9, col: 37>
+-------------------------KEYWORD: END    <row: 10, col: 5>
+-----------DELIMITER: ;    <row: 10, col: 8>
+--------------------KEYWORD: BEGIN    <row: 11, col: 1>
+--statement list    <row: 12, col: 0>
+---assign statement    <row: 12, col: 0>
+----lvalue    <row: 12, col: 0>
+-----lvalue    <row: 12, col: 0>
+------IDENTIFIER: C    <row: 12, col: 5>
+-----DELIMITER: .    <row: 12, col: 6>
+-----IDENTIFIER: R    <row: 12, col: 7>
+----OPERATOR: :=    <row: 12, col: 9>
+----numder expression    <row: 12, col: 0>
+-----number    <row: 12, col: 0>
+------REAL: 1.0    <row: 12, col: 12>
+----DELIMITER: ;    <row: 12, col: 15>
+---statement list    <row: 13, col: 0>
+----assign statement    <row: 13, col: 0>
+-----lvalue    <row: 13, col: 0>
+------lvalue    <row: 13, col: 0>
+-------IDENTIFIER: C    <row: 13, col: 5>
+------DELIMITER: .    <row: 13, col: 6>
+------IDENTIFIER: I    <row: 13, col: 7>
+-----OPERATOR: :=    <row: 13, col: 9>
+-----numder expression    <row: 13, col: 0>
+------number    <row: 13, col: 0>
+-------REAL: 0.0    <row: 13, col: 12>
+-----DELIMITER: ;    <row: 13, col: 15>
+----statement list    <row: 14, col: 0>
+-----assign statement    <row: 14, col: 0>
+------lvalue    <row: 14, col: 0>
+-------lvalue    <row: 14, col: 0>
+--------IDENTIFIER: P    <row: 14, col: 5>
+-------DELIMITER: .    <row: 14, col: 6>
+-------IDENTIFIER: FIRST    <row: 14, col: 7>
+------OPERATOR: :=    <row: 14, col: 13>
+------lvalue expression    <row: 14, col: 0>
+-------lvalue    <row: 14, col: 0>
+--------IDENTIFIER: C    <row: 14, col: 16>
+------DELIMITER: ;    <row: 14, col: 17>
+-----statement list    <row: 15, col: 0>
+------assign statement    <row: 15, col: 0>
+-------lvalue    <row: 15, col: 0>
+--------lvalue    <row: 15, col: 0>
+---------IDENTIFIER: C    <row: 15, col: 5>
+--------DELIMITER: .    <row: 15, col: 6>
+--------IDENTIFIER: R    <row: 15, col: 7>
+-------OPERATOR: :=    <row: 15, col: 9>
+-------numder expression    <row: 15, col: 0>
+--------number    <row: 15, col: 0>
+---------REAL: 0.0    <row: 15, col: 12>
+-------DELIMITER: ;    <row: 15, col: 15>
+------statement list    <row: 16, col: 0>
+-------assign statement    <row: 16, col: 0>
+--------lvalue    <row: 16, col: 0>
+---------lvalue    <row: 16, col: 0>
+----------IDENTIFIER: C    <row: 16, col: 5>
+---------DELIMITER: .    <row: 16, col: 6>
+---------IDENTIFIER: I    <row: 16, col: 7>
+--------OPERATOR: :=    <row: 16, col: 9>
+--------numder expression    <row: 16, col: 0>
+---------number    <row: 16, col: 0>
+----------REAL: 1.0    <row: 16, col: 12>
+--------DELIMITER: ;    <row: 16, col: 15>
+-------statement list    <row: 17, col: 0>
+--------assign statement    <row: 17, col: 0>
+---------lvalue    <row: 17, col: 0>
+----------lvalue    <row: 17, col: 0>
+-----------IDENTIFIER: P    <row: 17, col: 5>
+----------DELIMITER: .    <row: 17, col: 6>
+----------IDENTIFIER: SECOND    <row: 17, col: 7>
+---------OPERATOR: :=    <row: 17, col: 14>
+---------lvalue expression    <row: 17, col: 0>
+----------lvalue    <row: 17, col: 0>
+-----------IDENTIFIER: C    <row: 17, col: 17>
+---------DELIMITER: ;    <row: 17, col: 18>
+--------statement list    <row: 18, col: 0>
+---------assign statement    <row: 18, col: 0>
+----------lvalue    <row: 18, col: 0>
+-----------IDENTIFIER: C    <row: 18, col: 5>
+----------OPERATOR: :=    <row: 18, col: 7>
+----------lvalue expression    <row: 18, col: 0>
+-----------lvalue    <row: 18, col: 0>
+------------lvalue    <row: 18, col: 0>
+-------------IDENTIFIER: P    <row: 18, col: 10>
+------------DELIMITER: .    <row: 18, col: 11>
+------------IDENTIFIER: FIRST    <row: 18, col: 12>
+----------DELIMITER: ;    <row: 18, col: 17>
+---------statement list    <row: 19, col: 0>
+----------write statement    <row: 19, col: 0>
+-----------KEYWORD: WRITE    <row: 19, col: 5>
+-----------Write parameter list    <row: 19, col: 0>
+------------DELIMITER: (    <row: 19, col: 11>
+------------Write expression    <row: 19, col: 0>
+-------------STRING: "The first complex number should be (1.0, 0.0):"    <row: 19, col: 12>
+------------------------DELIMITER: )    <row: 19, col: 60>
+-----------DELIMITER: ;    <row: 19, col: 61>
+----------statement list    <row: 20, col: 0>
+-----------procedure call statement    <row: 20, col: 0>
+------------IDENTIFIER: PRINT    <row: 20, col: 5>
+------------actual parameter list    <row: 20, col: 0>
+-------------DELIMITER: (    <row: 20, col: 10>
+-------------DELIMITER: )    <row: 20, col: 11>
+------------DELIMITER: ;    <row: 20, col: 12>
+-----------statement list    <row: 21, col: 0>
+------------assign statement    <row: 21, col: 0>
+-------------lvalue    <row: 21, col: 0>
+--------------IDENTIFIER: C    <row: 21, col: 5>
+-------------OPERATOR: :=    <row: 21, col: 7>
+-------------lvalue expression    <row: 21, col: 0>
+--------------lvalue    <row: 21, col: 0>
+---------------lvalue    <row: 21, col: 0>
+----------------IDENTIFIER: P    <row: 21, col: 10>
+---------------DELIMITER: .    <row: 21, col: 11>
+---------------IDENTIFIER: SECOND    <row: 21, col: 12>
+-------------DELIMITER: ;    <row: 21, col: 18>
+------------statement list    <row: 22, col: 0>
+-------------write statement    <row: 22, col: 0>
+--------------KEYWORD: WRITE    <row: 22, col: 5>
+--------------Write parameter list    <row: 22, col: 0>
+---------------DELIMITER: (    <row: 22, col: 11>
+---------------Write expression    <row: 22, col: 0>
+----------------STRING: "The second complex number should be (0.0, 1.0):"    <row: 22, col: 12>
+------------------------------DELIMITER: )    <row: 22, col: 61>
+--------------DELIMITER: ;    <row: 22, col: 62>
+-------------statement list    <row: 23, col: 0>
+--------------procedure call statement    <row: 23, col: 0>
+---------------IDENTIFIER: PRINT    <row: 23, col: 5>
+---------------actual parameter list    <row: 23, col: 0>
+----------------DELIMITER: (    <row: 23, col: 10>
+----------------DELIMITER: )    <row: 23, col: 11>
+---------------DELIMITER: ;    <row: 23, col: 12>
+--------------statement list    <row: 24, col: 0>
+---------------If statement    <row: 24, col: 0>
+----------------KEYWORD: IF    <row: 24, col: 5>
+----------------binary op expression    <row: 24, col: 0>
+-----------------lvalue expression    <row: 24, col: 0>
+------------------lvalue    <row: 24, col: 0>
+-------------------lvalue    <row: 24, col: 0>
+--------------------lvalue    <row: 24, col: 0>
+---------------------IDENTIFIER: P    <row: 24, col: 8>
+--------------------DELIMITER: .    <row: 24, col: 9>
+--------------------IDENTIFIER: FIRST    <row: 24, col: 10>
+-------------------DELIMITER: .    <row: 24, col: 15>
+-------------------IDENTIFIER: R    <row: 24, col: 16>
+-----------------OPERATOR: <>    <row: 24, col: 18>
+-----------------lvalue expression    <row: 24, col: 0>
+------------------lvalue    <row: 24, col: 0>
+-------------------lvalue    <row: 24, col: 0>
+--------------------lvalue    <row: 24, col: 0>
+---------------------IDENTIFIER: P    <row: 24, col: 21>
+--------------------DELIMITER: .    <row: 24, col: 22>
+--------------------IDENTIFIER: SECOND    <row: 24, col: 23>
+-------------------DELIMITER: .    <row: 24, col: 29>
+-------------------IDENTIFIER: R    <row: 24, col: 30>
+----------------KEYWORD: THEN    <row: 24, col: 32>
+----------------statement list    <row: 25, col: 0>
+-----------------write statement    <row: 25, col: 0>
+------------------KEYWORD: WRITE    <row: 25, col: 2>
+------------------Write parameter list    <row: 25, col: 0>
+-------------------DELIMITER: (    <row: 25, col: 8>
+-------------------Write expression    <row: 25, col: 0>
+--------------------STRING: "and these two complex numbers are not equal!"    <row: 25, col: 9>
+--------------------------------------DELIMITER: )    <row: 25, col: 55>
+------------------DELIMITER: ;    <row: 25, col: 56>
+---------------------------------else if list    <row: 26, col: 0>
+-----------------else if    <row: 26, col: 0>
+------------------KEYWORD: ELSIF    <row: 26, col: 5>
+------------------binary op expression    <row: 26, col: 0>
+-------------------lvalue expression    <row: 26, col: 0>
+--------------------lvalue    <row: 26, col: 0>
+---------------------lvalue    <row: 26, col: 0>
+----------------------lvalue    <row: 26, col: 0>
+-----------------------IDENTIFIER: P    <row: 26, col: 11>
+----------------------DELIMITER: .    <row: 26, col: 12>
+----------------------IDENTIFIER: FIRST    <row: 26, col: 13>
+---------------------DELIMITER: .    <row: 26, col: 18>
+---------------------IDENTIFIER: I    <row: 26, col: 19>
+-------------------OPERATOR: <>    <row: 26, col: 21>
+-------------------lvalue expression    <row: 26, col: 0>
+--------------------lvalue    <row: 26, col: 0>
+---------------------lvalue    <row: 26, col: 0>
+----------------------lvalue    <row: 26, col: 0>
+-----------------------IDENTIFIER: P    <row: 26, col: 24>
+----------------------DELIMITER: .    <row: 26, col: 25>
+----------------------IDENTIFIER: SECOND    <row: 26, col: 26>
+---------------------DELIMITER: .    <row: 26, col: 32>
+---------------------IDENTIFIER: I    <row: 26, col: 33>
+------------------KEYWORD: THEN    <row: 26, col: 35>
+------------------statement list    <row: 27, col: 0>
+-------------------write statement    <row: 27, col: 0>
+--------------------KEYWORD: WRITE    <row: 27, col: 2>
+--------------------Write parameter list    <row: 27, col: 0>
+---------------------DELIMITER: (    <row: 27, col: 8>
+---------------------Write expression    <row: 27, col: 0>
+----------------------STRING: "and these two complex numbers are not equal!"    <row: 27, col: 9>
+------------------------------------------DELIMITER: )    <row: 27, col: 55>
+--------------------DELIMITER: ;    <row: 27, col: 56>
+----------------------------------------------------else    <row: 28, col: 0>
+-----------------KEYWORD: ELSE    <row: 28, col: 5>
+-----------------statement list    <row: 29, col: 0>
+------------------write statement    <row: 29, col: 0>
+-------------------KEYWORD: WRITE    <row: 29, col: 2>
+-------------------Write parameter list    <row: 29, col: 0>
+--------------------DELIMITER: (    <row: 29, col: 8>
+--------------------Write expression    <row: 29, col: 0>
+---------------------STRING: "and these two complex numbers are equal?"    <row: 29, col: 9>
+----------------------------------------DELIMITER: )    <row: 29, col: 51>
+-------------------DELIMITER: ;    <row: 29, col: 52>
+----------------------------------KEYWORD: END    <row: 30, col: 5>
+----------------DELIMITER: ;    <row: 30, col: 8>
+-----------------KEYWORD: END    <row: 31, col: 1>
+-DELIMITER: ;    <row: 31, col: 4>

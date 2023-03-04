@@ -1,0 +1,184 @@
+Program    <row: 1, col: 0>
+-KEYWORD: PROGRAM    <row: 1, col: 1>
+-KEYWORD: IS    <row: 1, col: 9>
+-Body    <row: 2, col: 0>
+--declaration list    <row: 2, col: 0>
+--- Variable declaration    <row: 2, col: 0>
+----KEYWORD: VAR    <row: 2, col: 5>
+----variable declaration list    <row: 2, col: 0>
+-----variable declaration    <row: 2, col: 0>
+------IDENTIFIER: I    <row: 2, col: 9>
+------ID list    <row: 2, col: 0>
+-------DELIMITER: ,    <row: 2, col: 10>
+-------IDENTIFIER: J    <row: 2, col: 11>
+-------------type option    <row: 2, col: 0>
+-------DELIMITER: :    <row: 2, col: 13>
+-------type    <row: 2, col: 0>
+--------IDENTIFIER: INTEGER    <row: 2, col: 15>
+------OPERATOR: :=    <row: 2, col: 23>
+------numder expression    <row: 2, col: 0>
+-------number    <row: 2, col: 0>
+--------INTEGER: 0    <row: 2, col: 26>
+------DELIMITER: ;    <row: 2, col: 27>
+----------KEYWORD: BEGIN    <row: 3, col: 1>
+--statement list    <row: 4, col: 0>
+---write statement    <row: 4, col: 0>
+----KEYWORD: WRITE    <row: 4, col: 2>
+----Write parameter list    <row: 4, col: 0>
+-----DELIMITER: (    <row: 4, col: 7>
+-----Write expression    <row: 4, col: 0>
+------STRING: "Ascending loop:"    <row: 4, col: 8>
+----------DELIMITER: )    <row: 4, col: 25>
+----DELIMITER: ;    <row: 4, col: 26>
+---statement list    <row: 5, col: 0>
+----For statement    <row: 5, col: 0>
+-----KEYWORD: FOR    <row: 5, col: 2>
+-----IDENTIFIER: I    <row: 5, col: 6>
+-----OPERATOR: :=    <row: 5, col: 8>
+-----numder expression    <row: 5, col: 0>
+------number    <row: 5, col: 0>
+-------INTEGER: 1    <row: 5, col: 11>
+-----KEYWORD: TO    <row: 5, col: 13>
+-----numder expression    <row: 5, col: 0>
+------number    <row: 5, col: 0>
+-------INTEGER: 5    <row: 5, col: 16>
+----------KEYWORD: DO    <row: 5, col: 18>
+-----statement list    <row: 6, col: 0>
+------write statement    <row: 6, col: 0>
+-------KEYWORD: WRITE    <row: 6, col: 4>
+-------Write parameter list    <row: 6, col: 0>
+--------DELIMITER: (    <row: 6, col: 9>
+--------Write expression    <row: 6, col: 0>
+---------STRING: "I = "    <row: 6, col: 10>
+--------Write expression list    <row: 6, col: 0>
+---------DELIMITER: ,    <row: 6, col: 16>
+---------Write expression    <row: 6, col: 0>
+----------lvalue expression    <row: 6, col: 0>
+-----------lvalue    <row: 6, col: 0>
+------------IDENTIFIER: I    <row: 6, col: 18>
+-----------------DELIMITER: )    <row: 6, col: 19>
+-------DELIMITER: ;    <row: 6, col: 20>
+-----------KEYWORD: END    <row: 7, col: 9>
+-----DELIMITER: ;    <row: 7, col: 12>
+----statement list    <row: 8, col: 0>
+-----write statement    <row: 8, col: 0>
+------KEYWORD: WRITE    <row: 8, col: 2>
+------Write parameter list    <row: 8, col: 0>
+-------DELIMITER: (    <row: 8, col: 7>
+-------Write expression    <row: 8, col: 0>
+--------STRING: "Descending loop:"    <row: 8, col: 8>
+--------------DELIMITER: )    <row: 8, col: 26>
+------DELIMITER: ;    <row: 8, col: 27>
+-----statement list    <row: 9, col: 0>
+------For statement    <row: 9, col: 0>
+-------KEYWORD: FOR    <row: 9, col: 2>
+-------IDENTIFIER: I    <row: 9, col: 6>
+-------OPERATOR: :=    <row: 9, col: 8>
+-------numder expression    <row: 9, col: 0>
+--------number    <row: 9, col: 0>
+---------INTEGER: 5    <row: 9, col: 11>
+-------KEYWORD: TO    <row: 9, col: 13>
+-------numder expression    <row: 9, col: 0>
+--------number    <row: 9, col: 0>
+---------INTEGER: 1    <row: 9, col: 16>
+-------interval    <row: 9, col: 0>
+--------KEYWORD: BY    <row: 9, col: 18>
+--------unary op expression    <row: 9, col: 0>
+---------OPERATOR: -    <row: 9, col: 21>
+---------numder expression    <row: 9, col: 0>
+----------number    <row: 9, col: 0>
+-----------INTEGER: 1    <row: 9, col: 22>
+-------KEYWORD: DO    <row: 9, col: 24>
+-------statement list    <row: 10, col: 0>
+--------write statement    <row: 10, col: 0>
+---------KEYWORD: WRITE    <row: 10, col: 4>
+---------Write parameter list    <row: 10, col: 0>
+----------DELIMITER: (    <row: 10, col: 9>
+----------Write expression    <row: 10, col: 0>
+-----------STRING: "I = "    <row: 10, col: 10>
+----------Write expression list    <row: 10, col: 0>
+-----------DELIMITER: ,    <row: 10, col: 16>
+-----------Write expression    <row: 10, col: 0>
+------------lvalue expression    <row: 10, col: 0>
+-------------lvalue    <row: 10, col: 0>
+--------------IDENTIFIER: I    <row: 10, col: 18>
+---------------------DELIMITER: )    <row: 10, col: 19>
+---------DELIMITER: ;    <row: 10, col: 20>
+---------------KEYWORD: END    <row: 11, col: 9>
+-------DELIMITER: ;    <row: 11, col: 12>
+------statement list    <row: 12, col: 0>
+-------write statement    <row: 12, col: 0>
+--------KEYWORD: WRITE    <row: 12, col: 2>
+--------Write parameter list    <row: 12, col: 0>
+---------DELIMITER: (    <row: 12, col: 7>
+---------Write expression    <row: 12, col: 0>
+----------STRING: "Double loop:"    <row: 12, col: 8>
+------------------DELIMITER: )    <row: 12, col: 22>
+--------DELIMITER: ;    <row: 12, col: 23>
+-------statement list    <row: 13, col: 0>
+--------For statement    <row: 13, col: 0>
+---------KEYWORD: FOR    <row: 13, col: 2>
+---------IDENTIFIER: I    <row: 13, col: 6>
+---------OPERATOR: :=    <row: 13, col: 8>
+---------numder expression    <row: 13, col: 0>
+----------number    <row: 13, col: 0>
+-----------INTEGER: 1    <row: 13, col: 11>
+---------KEYWORD: TO    <row: 13, col: 13>
+---------numder expression    <row: 13, col: 0>
+----------number    <row: 13, col: 0>
+-----------INTEGER: 5    <row: 13, col: 16>
+------------------KEYWORD: DO    <row: 13, col: 18>
+---------statement list    <row: 14, col: 0>
+----------For statement    <row: 14, col: 0>
+-----------KEYWORD: FOR    <row: 14, col: 6>
+-----------IDENTIFIER: J    <row: 14, col: 10>
+-----------OPERATOR: :=    <row: 14, col: 12>
+-----------lvalue expression    <row: 14, col: 0>
+------------lvalue    <row: 14, col: 0>
+-------------IDENTIFIER: I    <row: 14, col: 15>
+-----------KEYWORD: TO    <row: 14, col: 17>
+-----------binary op expression    <row: 14, col: 0>
+------------lvalue expression    <row: 14, col: 0>
+-------------lvalue    <row: 14, col: 0>
+--------------IDENTIFIER: I    <row: 14, col: 20>
+------------OPERATOR: +    <row: 14, col: 21>
+------------numder expression    <row: 14, col: 0>
+-------------number    <row: 14, col: 0>
+--------------INTEGER: 10    <row: 14, col: 22>
+-----------interval    <row: 14, col: 0>
+------------KEYWORD: BY    <row: 14, col: 25>
+------------numder expression    <row: 14, col: 0>
+-------------number    <row: 14, col: 0>
+--------------INTEGER: 2    <row: 14, col: 28>
+-----------KEYWORD: DO    <row: 14, col: 30>
+-----------statement list    <row: 15, col: 0>
+------------write statement    <row: 15, col: 0>
+-------------KEYWORD: WRITE    <row: 15, col: 8>
+-------------Write parameter list    <row: 15, col: 0>
+--------------DELIMITER: (    <row: 15, col: 13>
+--------------Write expression    <row: 15, col: 0>
+---------------STRING: "I,J = "    <row: 15, col: 14>
+--------------Write expression list    <row: 15, col: 0>
+---------------DELIMITER: ,    <row: 15, col: 22>
+---------------Write expression    <row: 15, col: 0>
+----------------lvalue expression    <row: 15, col: 0>
+-----------------lvalue    <row: 15, col: 0>
+------------------IDENTIFIER: I    <row: 15, col: 24>
+---------------Write expression list    <row: 15, col: 0>
+----------------DELIMITER: ,    <row: 15, col: 25>
+----------------Write expression    <row: 15, col: 0>
+-----------------STRING: ", "    <row: 15, col: 27>
+----------------Write expression list    <row: 15, col: 0>
+-----------------DELIMITER: ,    <row: 15, col: 31>
+-----------------Write expression    <row: 15, col: 0>
+------------------lvalue expression    <row: 15, col: 0>
+-------------------lvalue    <row: 15, col: 0>
+--------------------IDENTIFIER: J    <row: 15, col: 33>
+-------------------------------DELIMITER: )    <row: 15, col: 34>
+-------------DELIMITER: ;    <row: 15, col: 35>
+-----------------------KEYWORD: END    <row: 16, col: 11>
+-----------DELIMITER: ;    <row: 16, col: 14>
+-------------------KEYWORD: END    <row: 17, col: 9>
+---------DELIMITER: ;    <row: 17, col: 12>
+----------KEYWORD: END    <row: 18, col: 1>
+-DELIMITER: ;    <row: 18, col: 4>

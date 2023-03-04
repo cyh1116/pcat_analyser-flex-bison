@@ -1,0 +1,132 @@
+Program    <row: 1, col: 0>
+-KEYWORD: PROGRAM    <row: 1, col: 1>
+-KEYWORD: IS    <row: 1, col: 9>
+-Body    <row: 2, col: 0>
+--declaration list    <row: 2, col: 0>
+---Procedure declaration    <row: 2, col: 0>
+----KEYWORD: PROCEDURE    <row: 2, col: 5>
+----procedure declaration list    <row: 2, col: 0>
+-----procedure declaration    <row: 2, col: 0>
+------IDENTIFIER: FOO    <row: 2, col: 15>
+------formal parameter list    <row: 2, col: 0>
+-------DELIMITER: (    <row: 2, col: 18>
+-------fp section    <row: 2, col: 0>
+--------IDENTIFIER: X    <row: 2, col: 19>
+----------------DELIMITER: :    <row: 2, col: 20>
+--------type    <row: 2, col: 0>
+---------IDENTIFIER: INT    <row: 2, col: 22>
+-------fp section list    <row: 2, col: 0>
+--------DELIMITER: ;    <row: 2, col: 25>
+--------fp section    <row: 2, col: 0>
+---------IDENTIFIER: Y    <row: 2, col: 27>
+------------------DELIMITER: :    <row: 2, col: 28>
+---------type    <row: 2, col: 0>
+----------IDENTIFIER: REAL    <row: 2, col: 30>
+---------------DELIMITER: )    <row: 2, col: 34>
+------type option    <row: 2, col: 0>
+-------DELIMITER: :    <row: 2, col: 35>
+-------type    <row: 2, col: 0>
+--------IDENTIFIER: REAL    <row: 2, col: 36>
+------KEYWORD: IS    <row: 2, col: 41>
+------Body    <row: 3, col: 0>
+-------declaration list    <row: 3, col: 0>
+--------Procedure declaration    <row: 3, col: 0>
+---------KEYWORD: PROCEDURE    <row: 3, col: 7>
+---------procedure declaration list    <row: 3, col: 0>
+----------procedure declaration    <row: 3, col: 0>
+-----------IDENTIFIER: BAR    <row: 3, col: 17>
+-----------formal parameter list    <row: 3, col: 0>
+------------DELIMITER: (    <row: 3, col: 20>
+------------DELIMITER: )    <row: 3, col: 21>
+----------------------KEYWORD: IS    <row: 3, col: 23>
+-----------Body    <row: 0, col: 0>
+------------------------KEYWORD: BEGIN    <row: 3, col: 26>
+------------statement list    <row: 3, col: 0>
+-------------assign statement    <row: 3, col: 0>
+--------------lvalue    <row: 3, col: 0>
+---------------IDENTIFIER: Y    <row: 3, col: 32>
+--------------OPERATOR: :=    <row: 3, col: 34>
+--------------binary op expression    <row: 3, col: 0>
+---------------lvalue expression    <row: 3, col: 0>
+----------------lvalue    <row: 3, col: 0>
+-----------------IDENTIFIER: X    <row: 3, col: 37>
+---------------OPERATOR: +    <row: 3, col: 39>
+---------------numder expression    <row: 3, col: 0>
+----------------number    <row: 3, col: 0>
+-----------------REAL: 1.0    <row: 3, col: 41>
+--------------DELIMITER: ;    <row: 3, col: 44>
+-------------------------KEYWORD: END    <row: 3, col: 46>
+-----------DELIMITER: ;    <row: 3, col: 49>
+-------------------------KEYWORD: BEGIN    <row: 4, col: 7>
+-------statement list    <row: 5, col: 0>
+--------procedure call statement    <row: 5, col: 0>
+---------IDENTIFIER: BAR    <row: 5, col: 9>
+---------actual parameter list    <row: 5, col: 0>
+----------DELIMITER: (    <row: 5, col: 12>
+----------DELIMITER: )    <row: 5, col: 13>
+---------DELIMITER: ;    <row: 5, col: 14>
+--------statement list    <row: 6, col: 0>
+---------return statement    <row: 6, col: 0>
+----------KEYWORD: RETURN    <row: 6, col: 2>
+----------lvalue expression    <row: 6, col: 0>
+-----------lvalue    <row: 6, col: 0>
+------------IDENTIFIER: Y    <row: 6, col: 9>
+----------DELIMITER: ;    <row: 6, col: 10>
+----------------KEYWORD: END    <row: 7, col: 7>
+------DELIMITER: ;    <row: 7, col: 10>
+--------declaration list    <row: 8, col: 0>
+---- Variable declaration    <row: 8, col: 0>
+-----KEYWORD: VAR    <row: 8, col: 5>
+-----variable declaration list    <row: 8, col: 0>
+------variable declaration    <row: 8, col: 0>
+-------IDENTIFIER: C    <row: 8, col: 9>
+--------------type option    <row: 8, col: 0>
+--------DELIMITER: :    <row: 8, col: 11>
+--------type    <row: 8, col: 0>
+---------IDENTIFIER: REAL    <row: 8, col: 13>
+-------OPERATOR: :=    <row: 8, col: 18>
+-------numder expression    <row: 8, col: 0>
+--------number    <row: 8, col: 0>
+---------INTEGER: 0    <row: 8, col: 21>
+-------DELIMITER: ;    <row: 8, col: 22>
+------------KEYWORD: BEGIN    <row: 9, col: 1>
+--statement list    <row: 10, col: 0>
+---assign statement    <row: 10, col: 0>
+----lvalue    <row: 10, col: 0>
+-----IDENTIFIER: C    <row: 10, col: 5>
+----OPERATOR: :=    <row: 10, col: 7>
+----procedure call expression    <row: 10, col: 0>
+-----IDENTIFIER: FOO    <row: 10, col: 10>
+-----actual parameter list    <row: 10, col: 0>
+------DELIMITER: (    <row: 10, col: 13>
+------numder expression    <row: 10, col: 0>
+-------number    <row: 10, col: 0>
+--------INTEGER: 3    <row: 10, col: 14>
+------expression list    <row: 10, col: 0>
+-------DELIMITER: ,    <row: 10, col: 15>
+-------numder expression    <row: 10, col: 0>
+--------number    <row: 10, col: 0>
+---------REAL: 2.0    <row: 10, col: 17>
+-------------DELIMITER: )    <row: 10, col: 20>
+----DELIMITER: ;    <row: 10, col: 21>
+---statement list    <row: 11, col: 0>
+----write statement    <row: 11, col: 0>
+-----KEYWORD: WRITE    <row: 11, col: 5>
+-----Write parameter list    <row: 11, col: 0>
+------DELIMITER: (    <row: 11, col: 10>
+------Write expression    <row: 11, col: 0>
+-------STRING: "C = "    <row: 11, col: 11>
+------Write expression list    <row: 11, col: 0>
+-------DELIMITER: ,    <row: 11, col: 17>
+-------Write expression    <row: 11, col: 0>
+--------lvalue expression    <row: 11, col: 0>
+---------lvalue    <row: 11, col: 0>
+----------IDENTIFIER: C    <row: 11, col: 19>
+-------Write expression list    <row: 11, col: 0>
+--------DELIMITER: ,    <row: 11, col: 20>
+--------Write expression    <row: 11, col: 0>
+---------STRING: " (should be 4.0)"    <row: 11, col: 22>
+--------------DELIMITER: )    <row: 11, col: 40>
+-----DELIMITER: ;    <row: 11, col: 41>
+------KEYWORD: END    <row: 12, col: 1>
+-DELIMITER: ;    <row: 12, col: 4>

@@ -1,0 +1,10 @@
+[lexical error on rows: 5]: integer out of range
+[lexical error on rows: 14]: invalid string with tab in it
+[lexical error on rows: 17]: invalid string with tab in it
+[lexical error on rows: 23]: overly long string
+[lexical error on rows: 35]: overly long identifier
+[lexical error on rows: 44]: unknown character
+[lexical error on rows: 50]: unterminated string
+[lexical error on rows: 53]: unterminated string
+[lexical error on rows: 56]: unterminated string
+[lexical error on rows: 74]: unterminated comment
