@@ -1,0 +1,105 @@
+Program    <row: 1, col: 0>
+-KEYWORD: PROGRAM    <row: 1, col: 1>
+-KEYWORD: IS    <row: 1, col: 9>
+-Body    <row: 2, col: 0>
+--declaration list    <row: 2, col: 0>
+--- Variable declaration    <row: 2, col: 0>
+----KEYWORD: VAR    <row: 2, col: 5>
+----variable declaration list    <row: 2, col: 0>
+-----variable declaration    <row: 2, col: 0>
+------IDENTIFIER: i    <row: 2, col: 9>
+------ID list    <row: 2, col: 0>
+-------DELIMITER: ,    <row: 2, col: 10>
+-------IDENTIFIER: j    <row: 2, col: 12>
+-------------type option    <row: 2, col: 0>
+-------DELIMITER: :    <row: 2, col: 14>
+-------type    <row: 2, col: 0>
+--------IDENTIFIER: INTEGER    <row: 2, col: 16>
+------OPERATOR: :=    <row: 2, col: 24>
+------numder expression    <row: 2, col: 0>
+-------number    <row: 2, col: 0>
+--------INTEGER: 1    <row: 2, col: 27>
+------DELIMITER: ;    <row: 2, col: 28>
+--------declaration list    <row: 3, col: 0>
+---- Variable declaration    <row: 3, col: 0>
+-----KEYWORD: VAR    <row: 3, col: 5>
+-----variable declaration list    <row: 3, col: 0>
+------variable declaration    <row: 3, col: 0>
+-------IDENTIFIER: x    <row: 3, col: 9>
+--------------type option    <row: 3, col: 0>
+--------DELIMITER: :    <row: 3, col: 11>
+--------type    <row: 3, col: 0>
+---------IDENTIFIER: REAL    <row: 3, col: 13>
+-------OPERATOR: :=    <row: 3, col: 18>
+-------numder expression    <row: 3, col: 0>
+--------number    <row: 3, col: 0>
+---------REAL: 2.0    <row: 3, col: 21>
+-------DELIMITER: ;    <row: 3, col: 24>
+----------declaration list    <row: 4, col: 0>
+----- Variable declaration    <row: 4, col: 0>
+------KEYWORD: VAR    <row: 4, col: 5>
+------variable declaration list    <row: 4, col: 0>
+-------variable declaration    <row: 4, col: 0>
+--------IDENTIFIER: y    <row: 4, col: 9>
+----------------type option    <row: 4, col: 0>
+---------DELIMITER: :    <row: 4, col: 11>
+---------type    <row: 4, col: 0>
+----------IDENTIFIER: REAL    <row: 4, col: 13>
+--------OPERATOR: :=    <row: 4, col: 18>
+--------numder expression    <row: 4, col: 0>
+---------number    <row: 4, col: 0>
+----------REAL: 3.0    <row: 4, col: 21>
+--------DELIMITER: ;    <row: 4, col: 24>
+--------------KEYWORD: BEGIN    <row: 5, col: 1>
+--statement list    <row: 6, col: 0>
+---write statement    <row: 6, col: 0>
+----KEYWORD: WRITE    <row: 6, col: 5>
+----Write parameter list    <row: 6, col: 0>
+-----DELIMITER: (    <row: 6, col: 11>
+-----Write expression    <row: 6, col: 0>
+------STRING: "i = "    <row: 6, col: 12>
+-----Write expression list    <row: 6, col: 0>
+------DELIMITER: ,    <row: 6, col: 18>
+------Write expression    <row: 6, col: 0>
+-------lvalue expression    <row: 6, col: 0>
+--------lvalue    <row: 6, col: 0>
+---------IDENTIFIER: i    <row: 6, col: 20>
+------Write expression list    <row: 6, col: 0>
+-------DELIMITER: ,    <row: 6, col: 21>
+-------Write expression    <row: 6, col: 0>
+--------STRING: ", j = "    <row: 6, col: 23>
+-------Write expression list    <row: 6, col: 0>
+--------DELIMITER: ,    <row: 6, col: 31>
+--------Write expression    <row: 6, col: 0>
+---------lvalue expression    <row: 6, col: 0>
+----------lvalue    <row: 6, col: 0>
+-----------IDENTIFIER: j    <row: 6, col: 33>
+-------------DELIMITER: )    <row: 6, col: 34>
+----DELIMITER: ;    <row: 6, col: 35>
+---statement list    <row: 7, col: 0>
+----write statement    <row: 7, col: 0>
+-----KEYWORD: WRITE    <row: 7, col: 5>
+-----Write parameter list    <row: 7, col: 0>
+------DELIMITER: (    <row: 7, col: 11>
+------Write expression    <row: 7, col: 0>
+-------STRING: "x = "    <row: 7, col: 12>
+------Write expression list    <row: 7, col: 0>
+-------DELIMITER: ,    <row: 7, col: 18>
+-------Write expression    <row: 7, col: 0>
+--------lvalue expression    <row: 7, col: 0>
+---------lvalue    <row: 7, col: 0>
+----------IDENTIFIER: x    <row: 7, col: 20>
+-------Write expression list    <row: 7, col: 0>
+--------DELIMITER: ,    <row: 7, col: 21>
+--------Write expression    <row: 7, col: 0>
+---------STRING: ", y = "    <row: 7, col: 23>
+--------Write expression list    <row: 7, col: 0>
+---------DELIMITER: ,    <row: 7, col: 31>
+---------Write expression    <row: 7, col: 0>
+----------lvalue expression    <row: 7, col: 0>
+-----------lvalue    <row: 7, col: 0>
+------------IDENTIFIER: y    <row: 7, col: 33>
+---------------DELIMITER: )    <row: 7, col: 34>
+-----DELIMITER: ;    <row: 7, col: 35>
+------KEYWORD: END    <row: 8, col: 1>
+-DELIMITER: ;    <row: 8, col: 4>

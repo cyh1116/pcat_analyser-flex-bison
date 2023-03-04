@@ -1,0 +1,280 @@
+Program    <row: 1, col: 0>
+-KEYWORD: PROGRAM    <row: 1, col: 1>
+-KEYWORD: IS    <row: 1, col: 9>
+-Body    <row: 2, col: 0>
+--declaration list    <row: 2, col: 0>
+--- Variable declaration    <row: 2, col: 0>
+----KEYWORD: VAR    <row: 2, col: 5>
+----variable declaration list    <row: 2, col: 0>
+-----variable declaration    <row: 2, col: 0>
+------IDENTIFIER: I    <row: 2, col: 9>
+------ID list    <row: 2, col: 0>
+-------DELIMITER: ,    <row: 2, col: 10>
+-------IDENTIFIER: ANSWER    <row: 2, col: 12>
+-------------type option    <row: 2, col: 0>
+-------DELIMITER: :    <row: 2, col: 19>
+-------type    <row: 2, col: 0>
+--------IDENTIFIER: INTEGER    <row: 2, col: 21>
+------OPERATOR: :=    <row: 2, col: 29>
+------numder expression    <row: 2, col: 0>
+-------number    <row: 2, col: 0>
+--------INTEGER: 0    <row: 2, col: 32>
+------DELIMITER: ;    <row: 2, col: 33>
+--------declaration list    <row: 3, col: 0>
+----Procedure declaration    <row: 3, col: 0>
+-----KEYWORD: PROCEDURE    <row: 3, col: 5>
+-----procedure declaration list    <row: 3, col: 0>
+------procedure declaration    <row: 3, col: 0>
+-------IDENTIFIER: FACTORIAL    <row: 3, col: 15>
+-------formal parameter list    <row: 3, col: 0>
+--------DELIMITER: (    <row: 3, col: 24>
+--------DELIMITER: )    <row: 3, col: 25>
+--------------KEYWORD: IS    <row: 3, col: 27>
+-------Body    <row: 4, col: 0>
+--------declaration list    <row: 4, col: 0>
+--------- Variable declaration    <row: 4, col: 0>
+----------KEYWORD: VAR    <row: 4, col: 2>
+----------variable declaration list    <row: 4, col: 0>
+-----------variable declaration    <row: 4, col: 0>
+------------IDENTIFIER: J    <row: 4, col: 6>
+------------------------type option    <row: 4, col: 0>
+-------------DELIMITER: :    <row: 4, col: 8>
+-------------type    <row: 4, col: 0>
+--------------IDENTIFIER: INTEGER    <row: 4, col: 10>
+------------OPERATOR: :=    <row: 4, col: 18>
+------------numder expression    <row: 4, col: 0>
+-------------number    <row: 4, col: 0>
+--------------INTEGER: 0    <row: 4, col: 21>
+------------DELIMITER: ;    <row: 4, col: 22>
+--------------------declaration list    <row: 5, col: 0>
+----------Procedure declaration    <row: 5, col: 0>
+-----------KEYWORD: PROCEDURE    <row: 5, col: 2>
+-----------procedure declaration list    <row: 6, col: 0>
+------------procedure declaration    <row: 6, col: 0>
+-------------IDENTIFIER: FACT    <row: 6, col: 11>
+-------------formal parameter list    <row: 6, col: 0>
+--------------DELIMITER: (    <row: 6, col: 15>
+--------------DELIMITER: )    <row: 6, col: 16>
+--------------------------KEYWORD: IS    <row: 6, col: 18>
+-------------Body    <row: 0, col: 0>
+----------------------------KEYWORD: BEGIN    <row: 6, col: 21>
+--------------statement list    <row: 7, col: 0>
+---------------If statement    <row: 7, col: 0>
+----------------KEYWORD: IF    <row: 7, col: 6>
+----------------binary op expression    <row: 7, col: 0>
+-----------------lvalue expression    <row: 7, col: 0>
+------------------lvalue    <row: 7, col: 0>
+-------------------IDENTIFIER: J    <row: 7, col: 9>
+-----------------OPERATOR: <=    <row: 7, col: 11>
+-----------------lvalue expression    <row: 7, col: 0>
+------------------lvalue    <row: 7, col: 0>
+-------------------IDENTIFIER: I    <row: 7, col: 14>
+----------------KEYWORD: THEN    <row: 7, col: 16>
+----------------statement list    <row: 7, col: 0>
+-----------------procedure call statement    <row: 7, col: 0>
+------------------IDENTIFIER: MULT    <row: 7, col: 21>
+------------------actual parameter list    <row: 7, col: 0>
+-------------------DELIMITER: (    <row: 7, col: 25>
+-------------------DELIMITER: )    <row: 7, col: 26>
+------------------DELIMITER: ;    <row: 7, col: 27>
+-----------------statement list    <row: 7, col: 0>
+------------------assign statement    <row: 7, col: 0>
+-------------------lvalue    <row: 7, col: 0>
+--------------------IDENTIFIER: J    <row: 7, col: 29>
+-------------------OPERATOR: :=    <row: 7, col: 31>
+-------------------binary op expression    <row: 7, col: 0>
+--------------------lvalue expression    <row: 7, col: 0>
+---------------------lvalue    <row: 7, col: 0>
+----------------------IDENTIFIER: J    <row: 7, col: 34>
+--------------------OPERATOR: +    <row: 7, col: 36>
+--------------------numder expression    <row: 7, col: 0>
+---------------------number    <row: 7, col: 0>
+----------------------INTEGER: 1    <row: 7, col: 38>
+-------------------DELIMITER: ;    <row: 7, col: 39>
+------------------statement list    <row: 7, col: 0>
+-------------------procedure call statement    <row: 7, col: 0>
+--------------------IDENTIFIER: FACT    <row: 7, col: 41>
+--------------------actual parameter list    <row: 7, col: 0>
+---------------------DELIMITER: (    <row: 7, col: 45>
+---------------------DELIMITER: )    <row: 7, col: 46>
+--------------------DELIMITER: ;    <row: 7, col: 47>
+-------------------------------------------------------------------KEYWORD: END    <row: 7, col: 49>
+----------------DELIMITER: ;    <row: 7, col: 52>
+-----------------------------KEYWORD: END    <row: 8, col: 4>
+-------------DELIMITER: ;    <row: 8, col: 7>
+------------procedure declaration list    <row: 9, col: 0>
+-------------procedure declaration    <row: 9, col: 0>
+--------------IDENTIFIER: MULT    <row: 9, col: 4>
+--------------formal parameter list    <row: 9, col: 0>
+---------------DELIMITER: (    <row: 9, col: 8>
+---------------DELIMITER: )    <row: 9, col: 9>
+----------------------------KEYWORD: IS    <row: 9, col: 11>
+--------------Body    <row: 10, col: 0>
+---------------declaration list    <row: 10, col: 0>
+---------------- Variable declaration    <row: 10, col: 0>
+-----------------KEYWORD: VAR    <row: 10, col: 6>
+-----------------variable declaration list    <row: 10, col: 0>
+------------------variable declaration    <row: 10, col: 0>
+-------------------IDENTIFIER: I    <row: 10, col: 10>
+--------------------------------------type option    <row: 10, col: 0>
+--------------------DELIMITER: :    <row: 10, col: 12>
+--------------------type    <row: 10, col: 0>
+---------------------IDENTIFIER: INTEGER    <row: 10, col: 14>
+-------------------OPERATOR: :=    <row: 10, col: 22>
+-------------------numder expression    <row: 10, col: 0>
+--------------------number    <row: 10, col: 0>
+---------------------INTEGER: 0    <row: 10, col: 25>
+-------------------DELIMITER: ;    <row: 10, col: 26>
+-------------------------------------------------KEYWORD: BEGIN    <row: 11, col: 4>
+---------------statement list    <row: 12, col: 0>
+----------------assign statement    <row: 12, col: 0>
+-----------------lvalue    <row: 12, col: 0>
+------------------IDENTIFIER: I    <row: 12, col: 6>
+-----------------OPERATOR: :=    <row: 12, col: 8>
+-----------------lvalue expression    <row: 12, col: 0>
+------------------lvalue    <row: 12, col: 0>
+-------------------IDENTIFIER: ANSWER    <row: 12, col: 11>
+-----------------DELIMITER: ;    <row: 12, col: 17>
+----------------statement list    <row: 13, col: 0>
+-----------------assign statement    <row: 13, col: 0>
+------------------lvalue    <row: 13, col: 0>
+-------------------IDENTIFIER: I    <row: 13, col: 13>
+------------------OPERATOR: :=    <row: 13, col: 15>
+------------------binary op expression    <row: 13, col: 0>
+-------------------lvalue expression    <row: 13, col: 0>
+--------------------lvalue    <row: 13, col: 0>
+---------------------IDENTIFIER: I    <row: 13, col: 18>
+-------------------OPERATOR: *    <row: 13, col: 20>
+-------------------lvalue expression    <row: 13, col: 0>
+--------------------lvalue    <row: 13, col: 0>
+---------------------IDENTIFIER: J    <row: 13, col: 22>
+------------------DELIMITER: ;    <row: 13, col: 23>
+-----------------statement list    <row: 14, col: 0>
+------------------assign statement    <row: 14, col: 0>
+-------------------lvalue    <row: 14, col: 0>
+--------------------IDENTIFIER: ANSWER    <row: 14, col: 13>
+-------------------OPERATOR: :=    <row: 14, col: 20>
+-------------------lvalue expression    <row: 14, col: 0>
+--------------------lvalue    <row: 14, col: 0>
+---------------------IDENTIFIER: I    <row: 14, col: 23>
+-------------------DELIMITER: ;    <row: 14, col: 24>
+---------------------------------KEYWORD: END    <row: 15, col: 4>
+--------------DELIMITER: ;    <row: 15, col: 7>
+-------------------------------KEYWORD: BEGIN    <row: 16, col: 5>
+--------statement list    <row: 17, col: 0>
+---------assign statement    <row: 17, col: 0>
+----------lvalue    <row: 17, col: 0>
+-----------IDENTIFIER: ANSWER    <row: 17, col: 2>
+----------OPERATOR: :=    <row: 17, col: 9>
+----------numder expression    <row: 17, col: 0>
+-----------number    <row: 17, col: 0>
+------------INTEGER: 1    <row: 17, col: 12>
+----------DELIMITER: ;    <row: 17, col: 13>
+---------statement list    <row: 18, col: 0>
+----------assign statement    <row: 18, col: 0>
+-----------lvalue    <row: 18, col: 0>
+------------IDENTIFIER: J    <row: 18, col: 2>
+-----------OPERATOR: :=    <row: 18, col: 4>
+-----------numder expression    <row: 18, col: 0>
+------------number    <row: 18, col: 0>
+-------------INTEGER: 1    <row: 18, col: 7>
+-----------DELIMITER: ;    <row: 18, col: 8>
+----------statement list    <row: 19, col: 0>
+-----------procedure call statement    <row: 19, col: 0>
+------------IDENTIFIER: FACT    <row: 19, col: 2>
+------------actual parameter list    <row: 19, col: 0>
+-------------DELIMITER: (    <row: 19, col: 6>
+-------------DELIMITER: )    <row: 19, col: 7>
+------------DELIMITER: ;    <row: 19, col: 8>
+-------------------KEYWORD: END    <row: 20, col: 5>
+-------DELIMITER: ;    <row: 20, col: 8>
+------------KEYWORD: BEGIN    <row: 21, col: 1>
+--statement list    <row: 22, col: 0>
+---write statement    <row: 22, col: 0>
+----KEYWORD: WRITE    <row: 22, col: 5>
+----Write parameter list    <row: 22, col: 0>
+-----DELIMITER: (    <row: 22, col: 11>
+-----Write expression    <row: 22, col: 0>
+------STRING: "The first 5 factorials are (in ascending order):"    <row: 22, col: 12>
+----------DELIMITER: )    <row: 22, col: 62>
+----DELIMITER: ;    <row: 22, col: 63>
+---statement list    <row: 23, col: 0>
+----assign statement    <row: 23, col: 0>
+-----lvalue    <row: 23, col: 0>
+------IDENTIFIER: I    <row: 23, col: 5>
+-----OPERATOR: :=    <row: 23, col: 7>
+-----numder expression    <row: 23, col: 0>
+------number    <row: 23, col: 0>
+-------INTEGER: 1    <row: 23, col: 10>
+-----DELIMITER: ;    <row: 23, col: 11>
+----statement list    <row: 24, col: 0>
+-----Loop statement    <row: 24, col: 0>
+------KEYWORD: LOOP    <row: 24, col: 5>
+------statement list    <row: 25, col: 0>
+-------If statement    <row: 25, col: 0>
+--------KEYWORD: IF    <row: 25, col: 2>
+--------binary op expression    <row: 25, col: 0>
+---------lvalue expression    <row: 25, col: 0>
+----------lvalue    <row: 25, col: 0>
+-----------IDENTIFIER: I    <row: 25, col: 5>
+---------OPERATOR: >    <row: 25, col: 7>
+---------numder expression    <row: 25, col: 0>
+----------number    <row: 25, col: 0>
+-----------INTEGER: 5    <row: 25, col: 9>
+--------KEYWORD: THEN    <row: 25, col: 11>
+--------statement list    <row: 25, col: 0>
+---------Exit statement    <row: 25, col: 0>
+----------KEYWORD: EXIT    <row: 25, col: 16>
+----------DELIMITER: ;    <row: 25, col: 20>
+---------------------------------KEYWORD: END    <row: 25, col: 22>
+--------DELIMITER: ;    <row: 25, col: 25>
+-------statement list    <row: 26, col: 0>
+--------procedure call statement    <row: 26, col: 0>
+---------IDENTIFIER: FACTORIAL    <row: 26, col: 9>
+---------actual parameter list    <row: 26, col: 0>
+----------DELIMITER: (    <row: 26, col: 18>
+----------DELIMITER: )    <row: 26, col: 19>
+---------DELIMITER: ;    <row: 26, col: 20>
+--------statement list    <row: 27, col: 0>
+---------write statement    <row: 27, col: 0>
+----------KEYWORD: WRITE    <row: 27, col: 9>
+----------Write parameter list    <row: 27, col: 0>
+-----------DELIMITER: (    <row: 27, col: 14>
+-----------Write expression    <row: 27, col: 0>
+------------STRING: "FACTORIAL("    <row: 27, col: 15>
+-----------Write expression list    <row: 27, col: 0>
+------------DELIMITER: ,    <row: 27, col: 27>
+------------Write expression    <row: 27, col: 0>
+-------------lvalue expression    <row: 27, col: 0>
+--------------lvalue    <row: 27, col: 0>
+---------------IDENTIFIER: I    <row: 27, col: 29>
+------------Write expression list    <row: 27, col: 0>
+-------------DELIMITER: ,    <row: 27, col: 30>
+-------------Write expression    <row: 27, col: 0>
+--------------STRING: ") = "    <row: 27, col: 32>
+-------------Write expression list    <row: 27, col: 0>
+--------------DELIMITER: ,    <row: 27, col: 38>
+--------------Write expression    <row: 27, col: 0>
+---------------lvalue expression    <row: 27, col: 0>
+----------------lvalue    <row: 27, col: 0>
+-----------------IDENTIFIER: ANSWER    <row: 27, col: 40>
+-------------------------DELIMITER: )    <row: 27, col: 46>
+----------DELIMITER: ;    <row: 27, col: 47>
+---------statement list    <row: 28, col: 0>
+----------assign statement    <row: 28, col: 0>
+-----------lvalue    <row: 28, col: 0>
+------------IDENTIFIER: I    <row: 28, col: 2>
+-----------OPERATOR: :=    <row: 28, col: 4>
+-----------binary op expression    <row: 28, col: 0>
+------------lvalue expression    <row: 28, col: 0>
+-------------lvalue    <row: 28, col: 0>
+--------------IDENTIFIER: I    <row: 28, col: 7>
+------------OPERATOR: +    <row: 28, col: 9>
+------------numder expression    <row: 28, col: 0>
+-------------number    <row: 28, col: 0>
+--------------INTEGER: 1    <row: 28, col: 11>
+-----------DELIMITER: ;    <row: 28, col: 12>
+----------------KEYWORD: END    <row: 29, col: 5>
+------DELIMITER: ;    <row: 29, col: 8>
+-------KEYWORD: END    <row: 30, col: 1>
+-DELIMITER: ;    <row: 30, col: 4>
